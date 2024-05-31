@@ -45,14 +45,24 @@
 // means after joining two array in JS the new one wil be of type STRING
 // console.log(newArray);
 
-// * * * * * * * * * * * * *  --------  slice and splice meathods in JS -------- * * * * * * * * * * * * * 
-const myArr = [1 , 2 , 3 , 4 , 5]
-console.log("A" ,  myArr);
-console.log(myArr.slice(1,3));
+// * * * * * * * * * * * * *  --------  slice and splice meathods in JS -------- * * * * * * * * * * * * *
+// SLICE  
+// const myArr = [1 , 2 , 3 , 4 , 5]
+// console.log("A" ,  myArr);
+// console.log(myArr.slice(1,3));
 // o/p :    this will slice from index number 1 to 2 | exclude the last range 
 // A [ 1, 2, 3, 4, 5 ]
 // [ 2, 3 ]
 
-console.log("B" , myArr);
-console.log(myArr.splice(1,3));
-console.log(myArr);
+// SPLICE
+// console.log("B" , myArr);
+// console.log(myArr.splice(1,3));
+// console.log(myArr);
+
+// o/ p   : this will work till the range 
+// B [ 1, 2, 3, 4, 5 ]  | this will modify the actual array 
+// [ 2, 3, 4 ]
+// [ 1, 5 ]
+
+
+
