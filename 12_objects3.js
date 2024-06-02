@@ -10,6 +10,7 @@ console.log(course.course_Instructor); // op : Rahul
 
 // Another syntax
 const {course_Instructor} = course
-const {name : course_name} = course
+const {name : course_name} = course   // just accessing the values inside objects 
 console.log(course_Instructor);  // op : Rahul 
-console.log(course_name);
+console.log(course_name);   // op : Javascript 
+
