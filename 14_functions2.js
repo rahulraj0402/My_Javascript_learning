@@ -46,3 +46,13 @@ handleObject({
 })
 
 
+
+// --------- --------- --------- --------- injecting a array in function  --------- --------- --------- --------- ---------
+
+const myNewArray = [1 , 3 , 4 , 67 , 90]
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+
+console.log(returnSecondValue(myNewArray))   // op : 4 ( second no is 4 )
+console.log(returnSecondValue([100 , 200 , 300]));   // op : 300 
